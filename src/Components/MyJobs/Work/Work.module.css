@@ -1,0 +1,54 @@
+.wrapperWork {
+    padding: 5px;
+    width: 33.33333%;
+}
+@media screen and (max-width: 1025px) {
+    .wrapperWork {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 375px) {
+    .wrapperWork {
+        width: 100%;
+    }
+}
+
+.titleWork {
+    font-size: 20px;
+}
+.imgInfo {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: local;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.imgInfo button {
+    width: 100px;
+}
+.wrapperWork h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+    transition: .3s;
+    color: #211006;
+    letter-spacing: 2px;
+    font-weight: 500;
+    line-height: 1.1;
+    font-family: 'Montserrat', sans-serif;
+}
+.wrapperWork p {
+    margin: 0;
+    line-height: 32px;
+    color: #211006;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+
+}

@@ -1,0 +1,26 @@
+.title {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.title h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.1;
+    color: #211006;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.title::before {
+    content: "";
+    position: absolute;
+    background-color: #4e93e6;
+    width: 55px;
+    height: 2px;
+    bottom: -20px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}

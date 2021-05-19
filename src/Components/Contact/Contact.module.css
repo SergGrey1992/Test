@@ -1,0 +1,57 @@
+.wrapperContact {
+    padding: 70px 0;
+    display: flex;
+    justify-content: space-around;
+    background: #fafafa;
+}
+
+.container {
+    width: 80%;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.formWrapper {
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    align-items: center;
+    min-height: 300px;
+    margin: 0 auto;
+}
+@media screen and (max-width: 475px) {
+    .formWrapper {
+        width: 100%;
+    }
+}
+
+textarea {
+    min-height: 150px;
+    width: 100%;
+    font-size: 18px;
+    background-color: #F7F7F7;
+    margin-bottom: 25px;
+}
+input[type=text], input[type=email], input[type=tel] {
+    display: block;
+    border: 0;
+    width: 100%;
+    height: 45px;
+    padding: 5px 10px;
+    font-size: 18px;
+    background-color: #F7F7F7;
+    background-image: none;
+    margin-bottom: 25px;
+}
+
+input[type=submit] {
+    display: inline-block;
+    color: #211a08;
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: 700;
+    border: 1px solid #211a08;
+    background: #fafafa;
+}
+
+

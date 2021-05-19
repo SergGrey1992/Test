@@ -1,0 +1,90 @@
+.wrapperSkill {
+    padding:10px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    transition: background 0.5s ease;
+}
+.progress {
+    height: 20px;
+    width: 100%;
+    margin-bottom: 12px;
+    background: #e9e9e9;
+    box-shadow: none;
+    border: 0;
+    margin-top: 8px;
+}
+.progressBar {
+    width: 82%;
+    background: #232323;
+    float: left;
+    height: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    transition: width .6s ease;
+}
+.progressBar span {
+    font-weight: 700;
+    font-size: 20px;
+}
+.iconLog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 1025px) {
+    .wrapperSkill {
+        width: 50%;
+    }
+}
+@media only screen and (max-width : 800px)  {
+    .wrapperSkill {
+        width: 50%;
+    }
+}
+@media only screen and (max-width : 768px)  {
+    .wrapperSkill {
+        width: 50%;
+    }
+}
+@media only screen and (max-width : 533px)  {
+    .wrapperSkill {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 375px) {
+    .wrapperSkill {
+        width: 100%;
+    }
+}
+.icon {
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+}
+
+.titleH3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+    transition: .3s;
+    color: #211006;
+    letter-spacing: 2px;
+    font-weight: 500;
+    line-height: 1.1;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapperText {
+    margin: 0;
+    line-height: 32px;
+    color: #211006;
+    font-family: 'Montserrat', sans-serif;
+}

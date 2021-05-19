@@ -1,0 +1,18 @@
+.wrapperJobs {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fafafa;
+    padding: 70px 0;
+}
+
+.container {
+    width: 80%;
+    text-align: center;
+}
+
+.wrapperWorks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
